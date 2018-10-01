@@ -17,17 +17,6 @@ header {
 }
 */
 
-section{
-    font-family: fantasy;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 1px black inset;
-    background-color: #D0D0D0;
-    border-radius: 20px;
-    margin-left: 3%;
-    margin-right: 40%;
-    overflow: hidden;
-}
-
 #container {
     width:90%;
     text-align:left;
