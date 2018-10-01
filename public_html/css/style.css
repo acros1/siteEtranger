@@ -1,0 +1,166 @@
+header {
+	margin-top: -90px;
+        margin-left: 20px;
+	background-color: white;
+        width: 100%;
+	height: 100px;
+        background: url(../img/logoInsa.png) no-repeat;
+        background-size: 379px 80px;
+}
+/*
+#insa{
+	position: absolute;
+	top: 15%;
+	left: 2%;
+        width: 379px;
+        height: 80px;
+}
+*/
+
+section{
+    font-family: fantasy;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black inset;
+    background-color: #D0D0D0;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 40%;
+    overflow: hidden;
+}
+
+#container {
+    width:90%;
+    text-align:left;
+    margin: 0 auto;
+}
+
+#left {
+    float:left;
+    width:60%;
+}    
+
+#right {
+    float: right;
+    width: 30%;
+}
+
+.bloc{
+    font-family: fantasy;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black inset;
+    background-color: #D0D0D0;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.corpsTexte{
+    position: relative;
+    text-indent: 2%;
+}
+
+.infoComp{
+}
+
+#ban2{
+	position: absolute;
+	height: 100%; /*632*/
+	width: 100%;
+	background: url(../img/ban2.jpg) no-repeat center;
+	/*top: 0;*/
+	padding-left: 0px;
+	font-size: 100%;
+}
+body {
+	margin: 0px;
+	/*background: url(../img/bg.jpg) no-repeat center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #F2F2F2;	
+}
+#topMenu{
+    padding: 0;
+    margin: 110px;
+    list-style: none;
+    text-align: right;
+    display: block;
+}
+#topMenu li{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+#topMenu ul li{
+    display: inherit;
+    border-radius: 0;
+}
+#topMenu ul li:hover{
+    border-radius: 0;
+}
+#topMenu ul{
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    top: 0;
+    padding: 20px 0;
+}
+#topMenu li:hover ul{
+    max-height: 15em;
+}
+/* background des liens menus */
+#topMenu li{
+    background-color: #CC3300;
+}
+#topMenu li:hover, #topMenu li:hover{
+    background: grey;
+}
+/* les a href */
+#topMenu a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 32px;
+    color: white;
+    font-family: arial;
+}
+#topMenu ul a{
+    padding: 8px 0;
+}
+#topMenu li:hover li a{
+    color: white;
+    text-transform: inherit;
+}
+#topMenu li:hover a, #topMenu li li:hover a{
+    color: white;
+}
+#leviking{
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+    width: 90%;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px black;
+}
+#lagertahh{
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+    width: 90%;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px black;
+}
+#bjornn{
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+    width: 90%;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px black;	
+}
