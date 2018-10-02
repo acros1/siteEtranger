@@ -5,53 +5,49 @@
 		<link rel="stylesheet" href="css/style.css" /> 
 		<title>INSA - Etudes à l'étranger</title>
                 <link rel="icon" type="image/png" href="img/ico.png" />
+                <script src="./js/caroussel.js"></script>
 	</head>
 	
-	<body>
-            <div id="main">
-
-</div>
-            <header>
-                <nav>
-                    <ul id="topMenu">
-                        <li><a href="#">ACCUEIL</a></li>
-                        <li><a href="pages/stages.html">STAGES</a></li>
-                        <li><a href="#">SEMESTRES</a>
-                            <ul>
-                                <li><a href="pages/ameriqueNord.html">Amérique du Nord</a></li>
-                                <li><a href="pages/ameriqueSud.html">Amérique du Sud</a></li>
-                                <li><a href="pages/europe.html">Europe</a></li>
-                                <li><a href="pages/asie.html">Asie</a></li>
-                                <li><a href="pages/afrique.html">Afrique</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="pages/diplomes.html">DOUBLES DIPLOMES</a></li>
-                        <li><a href="pages/contacts.html">CONTACTS</a></li>
-                    </ul>
-                </nav>    
-                <!--<img src="img/logo-insa-toulouse-2018.jpg" id="insa" />-->
-            </header>
+	<body onload="setbackground()">
+            <div class="wrap">
+                <div class="header">
+                    <nav>
+                        <ul id="topMenu">
+                            <li><a href="#">ACCUEIL</a></li>
+                            <li><a href="pages/stages.html">STAGES</a></li>
+                            <li><a href="#">SEMESTRES</a>
+                                <ul>
+                                    <li><a href="pages/ameriqueNord.html">Amérique du Nord</a></li>
+                                    <li><a href="pages/ameriqueSud.html">Amérique du Sud</a></li>
+                                    <li><a href="pages/europe.html">Europe</a></li>
+                                    <li><a href="pages/asie.html">Asie</a></li>
+                                    <li><a href="pages/afrique.html">Afrique</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pages/diplomes.html">DOUBLES DIPLOMES</a></li>
+                            <li><a href="pages/contacts.html">CONTACTS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="main">
+                    <hr>
+                                
+                    <div id="content">
+                        <div id="container1" class="item"></div>
+                    </div>
+                    
+                </div>
+                
+                <div class="footer">
+                    Instiut National des Sciences Appliquées
+                    135, Avenue de Rangueil 
+                    31077 Toulouse Cedex 4 <br>
+                    <a id="lienFoot" href=http://www.insa-toulouse.fr/fr/index.html>Site INSA</a> -  
+                    <a id="lienFoot" href="pages/Webmaster.html">Webmaster</a>
+                </div>
+            </div>
             
-            <h1>Page d'accueil</h1>
-            
-            <!--<div id="ban2"> <img src="img/ban2.jpg" id="ban2" /> </div>-->
-            
-            <section>
-                <aside>
-                </aside>
-                <article>
-                        <!--<a href="https://fr.wikipedia.org/wiki/Vikings_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)" target="_blank">article</a><br />-->
-                </article>
-            </section>
-           
-            <footer>
-                Instiut National des Sciences Appliquées
-                135, Avenue de Rangueil 
-                31077 Toulouse Cedex 4 <br>
-                <a href=http://www.insa-toulouse.fr/fr/index.html>Site INSA</a> -  
-                <a href="pages/Webmaster.html">Webmaster</a>
-            </footer>
-          
 	</body>
         
 </html>
