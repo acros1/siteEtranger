@@ -25,7 +25,7 @@ body{
 .main{
     position: relative;
     min-height: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 4.3%;
     padding-top: 3%
 }
 .footer{
@@ -67,7 +67,6 @@ hr {
     height: 450px;
     background: no-repeat;
     background-size: 100%;
-    /*test*/
 }
 
 #container {
@@ -164,5 +163,5 @@ hr {
 }
 
 .footer #lienFoot{
-    text-decoration: none;
+    color: white;
 }
