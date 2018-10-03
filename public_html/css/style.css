@@ -35,8 +35,8 @@ body{
     background: #CC3300;
     color: white;
     width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-family: arial;
     text-align-last: center;
     line-height: 1.3;
@@ -54,7 +54,7 @@ hr {
     box-sizing: border-box;
     box-shadow: 3px 3px 3px #aaa inset;
     background-color: #efefef;
-    border-radius: 20px;
+    border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -113,7 +113,7 @@ hr {
     text-align: center;
     display: inline-block;
     position: relative;
-    top: 20px;
+    top: 1em;
 }
 #topMenu ul li{
     display: inherit;
@@ -131,7 +131,7 @@ hr {
     overflow: hidden;
     transition: .8s all .3s;
     top: 0;
-    padding: 20px 0;
+    padding: 1em 0;
 }
 #topMenu li:hover ul{
     max-height: 15em;
