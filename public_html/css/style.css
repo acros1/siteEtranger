@@ -25,8 +25,12 @@ body{
 .main{
     position: relative;
     min-height: 100%;
-    padding-bottom: 4.3%;
-    padding-top: 3%
+    /*padding-bottom: 4.3%;
+    padding-top: 3%*/
+}
+.closeMain{
+    display: block;
+    clear: both;
 }
 .footer{
     height: 3em;
@@ -42,6 +46,7 @@ body{
     line-height: 1.3;
     text-decoration: none;
     text-shadow: -1px 0 dark, 0 1px dark, 1px 0 dark, 0 -1px dark;
+    margin-top: 10%;
 }
 
 hr {
