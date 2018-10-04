@@ -1,23 +1,25 @@
+@font-face {
+	font-family: "GeoSansLight";
+        font-style: normal;
+	src: url('../font/GeosansLight.ttf');
+}
+html{
+    height: 100%;
+}
 body{
-    height:100%;
+    height: 100%;
     position: relative;
-    margin: 0px;
     background-size: cover;
     background-color: #F2F2F2;
 }
- 
 .wrap{
-  min-height:100%;
-  position: relative;
+    min-height: 100%;
+    position: relative;
 }
  
 .header{
     position: relative;
-    /*margin-top: -90px;*/
-    /*margin-left: 20px;
-    background-color: white;*/
     width: 100%;
-    height: 10%;
     background: url(../img/logoInsa.png) no-repeat;
     background-size: 379px 80px;
     background-position-x: 5%;
@@ -25,15 +27,10 @@ body{
 .main{
     position: relative;
     min-height: 100%;
-    /*padding-bottom: 4.3%;
-    padding-top: 3%*/
 }
-.closeMain{
-    display: block;
-    clear: both;
-}
+
 .footer{
-    height: 3em;
+    height: 2em;
     position: absolute;
     bottom: 0;
     background: #CC3300;
@@ -41,18 +38,25 @@ body{
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-family: arial;
+    font-family: "GeoSansLight";
     text-align-last: center;
     line-height: 1.3;
     text-decoration: none;
     text-shadow: -1px 0 dark, 0 1px dark, 1px 0 dark, 0 -1px dark;
     margin-top: 10%;
 }
-
-hr {
+.footer #lienFoot{
+    color: white;
+}
+.hrTop {
     border: 1px #555 solid;
     box-shadow: 0px 2px 2px #333;
     margin-top: 5%;
+}
+.hrBot {
+    border: 1px #555 solid;
+    box-shadow: 0px 2px 2px #333;
+    margin-top: -1.5%;
 }
 #content .item {
     font-family: fantasy;
@@ -66,47 +70,42 @@ hr {
     padding: 10%;
     overflow: hidden;
 }
-
 #container1 {
     width: 80%;
     height: 450px;
     background: no-repeat;
     background-size: 100%;
 }
-
 #container {
-    width: 90%;
+    width: 100%;
     text-align: left;
-    margin: 0 auto;
+    display: inline-block;
 }
-
 #left {
-    float:left;
-    width:60%;
+    float: left;
+    width: 70%;
+    margin-left: 1%;
 }    
-
 #right {
     float: right;
-    width: 30%;
+    width: 25%;
+    margin-right: 1%;
+    margin-top: 1%;
 }
-
 .bloc{
-    font-family: arial;
+    font-family: "GeoSansLight";
     box-sizing: border-box;
     box-shadow: 1px 1px 1px black inset;
     background-color: #D0D0D0;
     border-radius: 20px;
-    padding: 2%;
+    padding: 5%;
 }
-
 .corpsTexte{
     position: relative;
-    text-indent: 2%;
 }
-
 .infoComp{
+    position: relative;
 }
-
 #topMenu{
     padding: 0;
     margin: 3%;
@@ -164,9 +163,5 @@ hr {
     text-transform: inherit;
 }
 #topMenu li:hover a, #topMenu li li:hover a{
-    color: white;
-}
-
-.footer #lienFoot{
     color: white;
 }
