@@ -1,8 +1,7 @@
 /* All images names ( not paths, it will be added later ) */
 var imgs	= ["student.jpg",
 		   "map-globe-network.jpg",
-		   "passeport.jpg",
-		   "passeport2.jpg"];
+		   "passeport.jpg"];
 /* Index for browsing image and content arrays */
 var i		= 0;
 /* Time to wait until it switch to the next image */
@@ -11,8 +10,7 @@ var pause	= 5000;
 /* content for each image, composed of a title and a text */
 var content	= [["Information", "Hey there ! This is where you're going to put all your information about foreigners and the steps you need to follow in order to study abroad !"],
 		   ["Other title", "other text"],
-		   ["Passeport 1", "text pour image passeport 1"],
-		   ["Passeport 2", "Text pour passeport 2"]];
+		   ["Passeport 1", "text pour image passeport 1"]];
 
 function setbackground(){
     window.setTimeout( "setbackground()", pause);
