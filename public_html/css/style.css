@@ -75,9 +75,10 @@ body{
 }
 
 #info-box {
-    font-family: fantasy;
+    font-family: "GeoSansLight";
     color: black;
     font: bold;
+    height: 70%;
     box-sizing: border-box;
     box-shadow: 3px 3px 3px #aaa inset;
     background-color: white;
@@ -91,7 +92,7 @@ body{
     opacity: 0.9;
 }
 
-#info-box h3 {
+#info-box h2 {
     text-align: center;
 }
 
