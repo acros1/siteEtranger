@@ -2,6 +2,6 @@ var file = "univ.txt";
 
 function fetchInfo(continent) {
 
-    window.open(file);
+    var file = new FileReader();
 
 }
