@@ -209,3 +209,33 @@ body{
 #topMenu li:hover a, #topMenu li li:hover a{
     color: white;
 }
+
+
+#blocImage
+{
+    width : 20%;
+    display: flex;
+    justify-content: center;
+    height: 400px; /* or other desired height */
+    overflow: hidden;
+    background-color: #000000;
+}
+.blocImage img
+{
+    flex: none;
+    float : left;
+
+}
+
+#blocTexteImage
+{
+    width : 100%;
+    margin-bottom : 2em;
+}
+
+#blocTexte
+{
+    top : 0%;
+    float : right ;
+    width : 75%;
+}
