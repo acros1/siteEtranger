@@ -1,7 +1,15 @@
-var file = "univ.txt";
 
-function fetchInfo(continent) {
+function loadContent() {
+    var txtFile = "universites.txt";
+    var file = new File(txtFile);
 
-    window.open(file);
+    file.open("r"); // open file with read access
 
+    alert("hello");
+    
+    while (!file.eof) {
+	document.getElementById("left").innerHTML = file.readln();
+    }
+    
+    file.close();
 }

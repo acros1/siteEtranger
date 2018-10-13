@@ -131,7 +131,7 @@ body{
     font-family: "GeoSansLight";
     box-sizing: border-box;
     box-shadow: 1px 1px 1px black inset;
-    background-color: #dedede;
+    background-color: white;
     border-radius: 20px;
     padding: 5%;
 }
