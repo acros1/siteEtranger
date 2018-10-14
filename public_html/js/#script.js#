@@ -1,7 +1,0 @@
-var file = "univ.txt";
-
-function fetchInfo(continent) {
-
-    var file = new FileReader();
-
-}
