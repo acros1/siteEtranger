@@ -211,31 +211,52 @@ body{
 }
 
 
-#blocImage
-{
-    width : 20%;
-    display: flex;
-    justify-content: center;
-    height: 400px; /* or other desired height */
-    overflow: hidden;
-    background-color: #000000;
-}
-.blocImage img
-{
-    flex: none;
-    float : left;
-
-}
-
 #blocTexteImage
 {
-    width : 100%;
-    margin-bottom : 2em;
+    margin : auto;
+    position: relative;
+    width : 90%;
+    min-height : 480px;
+    border:1px solid black;
+    border-style :groove;
+}
+
+#blocImage
+{
+    
+    position: relative;
+    float : left;
+    width : 20%;
 }
 
 #blocTexte
 {
-    top : 0%;
-    float : right ;
-    width : 75%;
+    position: absolute;
+    left : 280px;
+    min-height : 480px;
+    width : 100%;
+    float : left;
 }
+
+#blocTexte #Nom
+{
+    position : absolute;
+    top : 20%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+
+#blocTexte #texte
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width : 60%;
+    float : left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
