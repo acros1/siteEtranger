@@ -295,6 +295,12 @@ body{
     text-justify: inter-word;
 }
 
+.school h1:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .schoolContent
 {
     display: none;
