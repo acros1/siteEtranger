@@ -1,7 +1,8 @@
 
 function loadContent() {
-    var txtFile = "universites.txt";
+    var txtFile = "../pages/universites.txt";
     var file = new File(txtFile);
+
 
     file.open("r"); // open file with read access
 

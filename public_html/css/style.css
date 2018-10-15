@@ -116,18 +116,27 @@ body{
     display: inline-block;
 }
 #left {
+    font-family: "GeoSansLight";
+    text-align: justify;
     float: left;
     width: 70%;
     margin-left: 1%;
 }    
 #right {
     position: fixed;
+    text-align: justify;
     float: right;
     width: 25%;
     margin-right: 1%;
     margin-top: 1%;
     margin-left: 72%;
 }
+
+#right h1
+{
+    text-align: center;
+}
+
 .bloc{
     font-family: "GeoSansLight";
     box-sizing: border-box;
@@ -274,6 +283,12 @@ body{
     text-align: justify;
     text-justify: inter-word;
 }
+
+.school p
+{
+    display: hidden;
+}
+
 
 
 
