@@ -114,19 +114,30 @@ body{
     text-align: left;
     display: inline-block;
 }
+
 #left {
+    font-family: "GeoSansLight";
+    text-align: justify;
     float: left;
     width: 70%;
     margin-left: 1%;
 }    
 #right {
+    box-shadow: 3px 3px 3px #fff outset;
     position: fixed;
+    text-align: justify;
     float: right;
     width: 25%;
     margin-right: 1%;
     margin-top: 1%;
     margin-left: 72%;
 }
+
+#right h1
+{
+    text-align: center;
+}
+
 .bloc{
     font-family: "GeoSansLight";
     box-sizing: border-box;
@@ -135,12 +146,15 @@ body{
     border-radius: 20px;
     padding: 5%;
 }
+
 .corpsTexte{
     position: relative;
 }
 
 .infoComp{
     position: relative;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px black;
 }
 
 .infoComp a{
@@ -281,7 +295,7 @@ body{
     text-justify: inter-word;
 }
 
-schoolContent
+.schoolContent
 {
     display: none;
 }

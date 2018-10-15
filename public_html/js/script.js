@@ -1,16 +1,13 @@
+function toggle(div)
+{
+    var d = document.getElementById(div).style.display;
 
-function loadContent() {
-    var txtFile = "../pages/universites.txt";
-    var file = new File(txtFile);
-
-
-    file.open("r"); // open file with read access
-
-    alert("hello");
-    
-    while (!file.eof) {
-	document.getElementById("left").innerHTML = file.readln();
+    if(d == "none")
+    {
+	document.getElementById(div).style.display =  "block";
     }
-    
-    file.close();
+    else
+    {
+	document.getElementById(div).style.display =  "none";
+    }
 }
