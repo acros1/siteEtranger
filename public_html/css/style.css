@@ -231,56 +231,54 @@ body{
     font-family: "GeoSansLight";
 }
 
-.blocTexteImageGauche,
-.blocTexteImageDroite
+.blocTexteImageDroite,
+.blocTexteImageGauche
  {
      background-color: white;
      margin : auto;
      position: relative;
-     width : 70%;
-     min-height : 480px;
+     width : 815px;
+     height : 252px;
      border:1px solid black;
      box-shadow: 3px 3px 3px black;
  }
 
+.blocTexteImageDroite .blocImage
+{
+    position: relative;
+    float : right;
+    width : 142px;
+    height : 252px;
+}
+
 .blocTexteImageGauche .blocImage
 {
     position: relative;
-    float : right;
-    width : 270px;
-}
-
-.blocTexteImageDroite .blocImage
-{
-    margin-left: 45px;
-    position: relative;
     float : left;
-    width : 20%;
-}
-
-.blocTexteImageGauche .blocTexte
-{
-    position: absolute;
-    /*    right : -17%;*/
-    min-height : 480px;
-    margin-left: 10%;
-    width : 100%;
-    float : right;
+    width : 142px;
+    height : 252px;
 }
 
 .blocTexteImageDroite .blocTexte
 {
     position: absolute;
-    left : 280px;
-    min-height : 480px;
-    width : 100%;
-    float : left;
+    height : 252px;
+    width : 600px;
+    right : 150px;
+}
+
+.blocTexteImageGauche .blocTexte
+{
+    position: absolute;
+    height : 252px;
+    width : 600px;
+    left : 150px;
 }
 
 .blocTexte .Nom
 {
     position : absolute;
-    top : 20%;
+    top : 10%;
     font-size: 40px;
 }
 
@@ -289,8 +287,8 @@ body{
 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    width : 60%;
+    transform: translateY(-40%);
+    width : 100%;
     text-align: justify;
     text-justify: inter-word;
 }
