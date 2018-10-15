@@ -32,8 +32,9 @@ body{
 
 #footer{
     height: 2em;
-    position: absolute;
     display: block;
+    /*    position: absolute;*/
+    margin-bottom: 5px; /* NOUVEAU */
     bottom: 0;
     background: #CC3300;
     color: white;
@@ -46,7 +47,7 @@ body{
     text-decoration: none;
     text-shadow: -1px 0 dark, 0 1px dark, 1px 0 dark, 0 -1px dark;
     box-shadow: 0px -3px 3px black;
-    margin-top: 10%;
+/*    margin-top: 10%;*/
 }
 
 #footer #lienFoot{
@@ -211,26 +212,34 @@ body{
 }
 
 
-#blocTexteImage
+.blocTexteImage
 {
-    margin : auto;
+    background-color: white;
+    margin: auto;
+    margin-bottom : 2%;
+    padding: 10px;
     position: relative;
     width : 90%;
     min-height : 480px;
-    border:1px solid black;
-    border-style :groove;
+    box-shadow: 3px 3px 3px black;
 }
 
-#blocImage
+.blocImage
 {
-    
     position: relative;
     float : left;
     width : 20%;
 }
-
-#blocTexte
+.blocImage img
 {
+    border-radius: 30px;
+    box-shadow: 30px 30px 30px black inset;
+}
+
+.blocTexte
+{
+    font-family: "GeoSansLight";
+    margin-left: 10%;
     position: absolute;
     left : 280px;
     min-height : 480px;
@@ -238,7 +247,7 @@ body{
     float : left;
 }
 
-#blocTexte #Nom
+.blocTexte .Nom
 {
     position : absolute;
     top : 20%;
@@ -247,7 +256,7 @@ body{
 }
 
 
-#blocTexte #texte
+.blocTexte .texte
 {
     position: absolute;
     top: 50%;
