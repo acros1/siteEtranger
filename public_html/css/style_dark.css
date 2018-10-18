@@ -19,13 +19,84 @@ body{
 }
 
 #header{
+    box-shadow: 0px 4px 4px black;
     position: relative;
-    width: 100%;
-    background: url(../img/logoInsa.png) no-repeat;
     background-color: #222;
-    background-size: 379px 80px;
-    background-position-x: 5%;
 }
+
+#header img
+{
+    margin: 20px;
+    margin-right: 10%;
+    float: left;
+}
+
+#topMenu{
+    padding: 0;
+    margin-top: 2%;
+    margin-left: 5%;
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+}
+#topMenu li{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 1em;
+}
+#topMenu ul li{
+    display: inherit;
+    border-radius: 0;
+}
+#topMenu ul li:hover{
+    border-radius: 0;
+}
+#topMenu ul{
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .8s all .3s;
+    top: 0;
+    padding: 1em 0;
+}
+#topMenu li:hover ul{
+    max-height: 15em;
+}
+/* background des liens menus */
+#topMenu li{
+    background-color: #CC3300;
+}
+#topMenu li:hover, #topMenu li:hover{
+		       background: grey;
+		   }
+/* les a href */
+#topMenu a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 32px;
+    color: white;
+    font-family: arial;
+}
+
+#topMenu ul a{
+    padding: 8px 0;
+}
+
+#topMenu li:hover li a{
+    color: white;
+    text-transform: inherit;
+}
+
+#topMenu li:hover a,
+#topMenu li li:hover a
+{
+    color: white;
+}
+
 #main{
     position: relative;
     min-height: 100%;
@@ -34,7 +105,7 @@ body{
 
 #footer{
     height: 2em;
-     display: block;
+    display: block;
     bottom: 0;
     margin-bottom: 5px;
     margin-top: 10px;
@@ -56,8 +127,9 @@ body{
 }
 
 #hrTop {
-    border: 1px black solid;
-    box-shadow: 0px 2px 4px black;
+    height: 3px;
+    border: 0;
+/*    box-shadow: 0px 3px 3px black;*/
     margin-top: 5%;
 }
 
@@ -161,70 +233,7 @@ body{
     color: red;
 }
 
-#topMenu{
-    padding: 0;
-    margin: 3%;
-    list-style: none;
-    text-align: right;
-    display: block;
-}
-#topMenu li{
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    top: 1em;
-}
-#topMenu ul li{
-    display: inherit;
-    border-radius: 0;
-}
-#topMenu ul li:hover{
-    border-radius: 0;
-}
-#topMenu ul{
-    position: absolute;
-    z-index: 1000;
-    max-height: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    transition: .8s all .3s;
-    top: 0;
-    padding: 1em 0;
-}
-#topMenu li:hover ul{
-    max-height: 15em;
-}
-/* background des liens menus */
-#topMenu li{
-    background-color: #CC3300;
-}
-#topMenu li:hover, #topMenu li:hover{
-		       background: grey;
-		   }
-/* les a href */
-#topMenu a{
-    text-decoration: none;
-    display: block;
-    padding: 8px 32px;
-    color: white;
-    font-family: arial;
-}
 
-#topMenu ul a{
-    padding: 8px 0;
-}
-
-#topMenu li:hover li a{
-    color: white;
-    text-transform: inherit;
-}
-
-#topMenu li:hover a,
-#topMenu li li:hover a
-{
-    color: white;
-}
 
 .blocTexte
 {
