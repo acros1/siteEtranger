@@ -27,7 +27,6 @@ body{
 #header img
 {
     margin: 20px;
-    margin-right: 10%;
     float: left;
 }
 
@@ -71,7 +70,7 @@ body{
     background-color: #CC3300;
 }
 #topMenu li:hover, #topMenu li:hover{
-		       background: grey;
+		       background: #3c3c3c;
 		   }
 /* les a href */
 #topMenu a{
@@ -321,10 +320,11 @@ body{
 #contactContainer
 {
     font-family: "GeoSansLight";
+    padding-top: 10px;
     align: center;
     margin: 15px;
     background-color: #222;
-    border:1px solid black;
+/*    border:1px solid black;*/
     box-shadow: 3px 3px 3px black;
 }
 
@@ -336,6 +336,11 @@ body{
 #contactContainer hr
 {
     border: 1px solid #3c3c3c;
+}
+
+#contactContainer form
+{
+    align: center;
 }
 
 #contactContainer table
