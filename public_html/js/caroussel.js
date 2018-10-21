@@ -6,6 +6,7 @@ var imgs	= ["student.jpg",
 var i		= 0;
 /* Time to wait until it switch to the next image */
 var pause	= 4000;
+var fadePause	= 30;
 
 /* content for each image, composed of a title and a text */
 var content	= [["Doubles diplômes", "Envie d'une offre de formation unique vous permettant d'obtenir à la fois le diplôme de l'INSA Toulouse, et celui d'une école partenaire ? </br></br> Venez consulter dès à présent les partenariats possibles en France, mais aussi dans le monde entier ! "],
@@ -27,7 +28,7 @@ async function setbackground(){
 
     for(j = 0; j <= 10; j++) {
 	document.getElementById("content-index-page").style.opacity = (1 - j/10).toFixed(1);
-	await sleep(30);
+	await sleep(fadePause);
     }
 
     document.getElementById("content-index-page").style.backgroundImage = newImage;
@@ -36,7 +37,7 @@ async function setbackground(){
 
     for(j = 0; j <= 10; j++) {
 	document.getElementById("content-index-page").style.opacity = (j/10).toFixed(1);
-	await sleep(30);
+	await sleep(fadePause);
     }
     
     i++;
