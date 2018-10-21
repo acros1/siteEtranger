@@ -321,8 +321,13 @@ body {
     text-align: center;
 }
 
+#contactContainer form
+{
+    padding: 1%;
+}
+
 #contactContainer table {
-    margin: 10px;
+    margin: auto;
    
 }
 
