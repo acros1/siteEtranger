@@ -215,20 +215,25 @@ body {
 .bloc{
     font-family: "GeoSansLight";
     box-sizing: border-box;
-    box-shadow: 1px 1px 1px black inset;
+    box-shadow: 3px 3px 3px black inset;
     background-color: #222;
-    border-radius: 20px;
     padding: 5%;
 }
 
-.corpsTexte{
+.corpsTexte {
     position: relative;
+    border-radius: 100px 100px 100px;
 }
 
-.infoComp{
+.infoComp {
     position: relative;
     box-sizing: border-box;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 70px 0px 70px;
+}
+
+.infoComp h2 {
+    text-align: center;
 }
 
 .infoComp a{

@@ -23,6 +23,7 @@ body {
 
 #header {
     position: relative;
+    margin: auto;
     box-shadow: 0px 3px 5px black;
 }
 
@@ -203,6 +204,7 @@ body {
     margin-right: 1%;
     margin-top: 1%;
     margin-left: 72%;
+
 }
 
 #right h1 {
@@ -212,9 +214,9 @@ body {
 .bloc {
     font-family: "GeoSansLight";
     box-sizing: border-box;
-    box-shadow: 1px 1px 1px black inset;
+    box-shadow: 2px 2px 2px black inset;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 50px 0px 50px;
     padding: 5%;
 }
 
