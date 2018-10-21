@@ -12,16 +12,32 @@ var content	= [["Doubles diplômes", "Envie d'une offre de formation unique vous
 		   ["Semestres à l'étranger", "Quelle université choisir pour effctuer un semestre à l'étranger ? Dans quelle langue sont dispensés les cours ? Quelles matières sont enseignées ?</br></br> Dans cette section, retrouvez toutes les informations concernant la scolarité au sein des universités paternaires."],
 		   ["Administration", "Problème de budget, de demande de VISA ou de logement ? Un simple besoin de renseignements ? </br></br> N'hésitez pas à prendre rendez-vous avec le responsable ressources internationales de votre département d'étude ou d'envoyer vos questions via le forumlaire de contact. "]];
 
-function setbackground(){
+async function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+}
+
+async function setbackground(){
+    var j;
+
     window.setTimeout( "setbackground()", pause);
     
     if(i == imgs.length) {i = 0;}
     
     newImage = 'url(./img/' + imgs[i]  + ')';
 
+    for(j = 0; j <= 10; j++) {
+	document.getElementById("content-index-page").style.opacity = (1 - j/10).toFixed(1);
+	await sleep(30);
+    }
+
     document.getElementById("content-index-page").style.backgroundImage = newImage;
     document.getElementById("info-box-title").innerHTML			= content[i][0];
     document.getElementById("info-box-text").innerHTML			= content[i][1];
+
+    for(j = 0; j <= 10; j++) {
+	document.getElementById("content-index-page").style.opacity = (j/10).toFixed(1);
+	await sleep(30);
+    }
     
     i++;
 }
