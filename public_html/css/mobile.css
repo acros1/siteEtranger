@@ -1,0 +1,202 @@
+@media only screen and (max-width: 900px) {
+
+    #header {
+	position: relative;
+	margin: auto;
+	box-shadow: 0px 3px 5px black;
+    }
+
+    #header img {
+	display: block;
+	float: none;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    }
+
+    #topMenu {
+	padding: 0;
+	margin-top: 0%;
+	margin-left: 0%;
+	list-style: none;
+	text-align: center;
+	display: block;
+    }
+
+    #topMenu li {
+	text-align: center;
+	display: block;
+	position: relative;
+	top: 1em;
+    }
+
+    #topMenu ul li {
+	display: inherit;
+	border-radius: 0;
+    }
+
+    #topMenu ul li:hover {
+	border-radius: 0;
+    }
+
+    #topMenu ul {
+	position: relative;
+	z-index: 1000;
+	max-height: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	transition: .8s all .3s;
+	top: 0;
+	padding: 1em 0;
+    }
+
+    /* les a href */
+    #topMenu a {
+	text-decoration: none;
+	display: block;
+	padding: 8px 32px;
+	color: white;
+	font-family: arial;
+    }
+
+    #topMenu ul a {
+	padding: 8px 0;
+    }
+
+    #topMenu li:hover li a {
+	color: white;
+	text-transform: inherit;
+    }
+
+    #topMenu li:hover a,
+    #topMenu li li:hover a
+			 {
+			     color: white;
+			 }
+
+    #main {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+    }
+
+    #footer {
+	height: 100%;
+	text-align: center;
+    }
+
+    #footer #lienFoot {
+	color: white;
+    }
+
+    #content-index-page {
+	width: 100%;
+	height: 400px;
+	padding-top: 2%;
+	padding-left: 0%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    }
+
+    #info-box {
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: 5%;
+	overflow: hidden;
+	width: 90%;
+    }
+
+    #container {
+	width: 100%;
+	text-align: left;
+	display: block;
+    }
+
+    #left {
+	font-family: "GeoSansLight";
+	float: none;
+	width: 100%;
+	margin-left: 0%;
+    }
+
+    #right {
+	box-shadow: 3px 3px 3px #fff outset;
+	position: relative;
+	text-align: justify;
+	float: none;
+	width: 100%;
+	margin-right: 0%;
+	margin-top: 0%;
+	margin-left: 0%;
+
+    }
+
+    #right h1 {
+	text-align: center;
+    }
+
+    .bloc {
+	font-family: "GeoSansLight";
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px black inset;
+	border-radius: 50px 0px 50px;
+	padding: 5%;
+    }
+
+    .corpsTexte {
+	position: relative;
+    }
+
+
+    .blocTexteImageDroite,
+    .blocTexteImageGauche {
+	margin : auto;
+	position: relative;
+	width : initial;
+	height : initial;
+	overflow: auto;
+    }
+
+    .blocTexteImageDroite .blocImage {
+	float : right;
+    }
+
+    .blocTexteImageGauche .blocImage {
+	float : left;
+	left: initial;
+    }
+
+    .blocTexteImageDroite .blocTexte {
+	width: initial;
+	margin-left: 3%;
+    }
+
+    .blocTexteImageGauche .blocTexte {
+	width: initial;
+	margin-right: 3%;
+    }
+
+    .blocTexte .Nom {
+	position : relative;
+	top : 10%;
+	font-size: 40px;
+	display: block;
+    }
+
+
+    .blocTexte .texte {
+	position: relative;
+	top: 50%;
+	transform: translateY(-40%);
+	width : 100%;
+	text-align: justify;
+	text-justify: inter-word;
+    }
+}
+

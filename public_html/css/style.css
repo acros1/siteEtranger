@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: "GeoSansLight";
+    text-align: justify;
     height: 100%;
     position: relative;
     background-size: cover;
@@ -156,7 +157,7 @@ body {
 
 #info-box {
     color: black;
-    height: 70%;
+    min-height: 70%;
     box-sizing: border-box;
     box-shadow: 3px 3px 3px #aaa inset;
     background-color: white;
