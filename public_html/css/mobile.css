@@ -152,5 +152,54 @@
     .corpsTexte {
 	position: relative;
     }
+
+
+    .blocTexteImageDroite,
+    .blocTexteImageGauche {
+	margin : auto;
+	position: relative;
+	width : initial;
+	height : initial;
+	overflow: auto;
+    }
+
+    .blocTexteImageDroite .blocImage {
+	float : right;
+	width : initial;
+	height : initial;
+    }
+
+    .blocTexteImageGauche .blocImage {
+	float : left;
+	width : initial;
+	height : initial;
+	left: initial;
+    }
+
+    .blocTexteImageDroite .blocTexte {
+	width: initial;
+	margin-left: 1%;
+    }
+
+    .blocTexteImageGauche .blocTexte {
+	width: initial;
+	margin-right: 1%;
+    }
+
+    .blocTexte .Nom {
+	position : relative;
+	top : 10%;
+	font-size: 40px;
+    }
+
+
+    .blocTexte .texte {
+	position: relative;
+	top: 50%;
+	transform: translateY(-40%);
+	width : 100%;
+	text-align: justify;
+	text-justify: inter-word;
+    }
 }
 
