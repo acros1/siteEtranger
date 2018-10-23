@@ -165,31 +165,28 @@
 
     .blocTexteImageDroite .blocImage {
 	float : right;
-	width : initial;
-	height : initial;
     }
 
     .blocTexteImageGauche .blocImage {
 	float : left;
-	width : initial;
-	height : initial;
 	left: initial;
     }
 
     .blocTexteImageDroite .blocTexte {
 	width: initial;
-	margin-left: 1%;
+	margin-left: 3%;
     }
 
     .blocTexteImageGauche .blocTexte {
 	width: initial;
-	margin-right: 1%;
+	margin-right: 3%;
     }
 
     .blocTexte .Nom {
 	position : relative;
 	top : 10%;
 	font-size: 40px;
+	display: block;
     }
 
 
