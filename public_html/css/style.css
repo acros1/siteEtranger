@@ -355,20 +355,27 @@ body {
 }
 
 .map {
-    float: left;
-    height: 200%;
-    width: 200%;
-    
+    height: 300%;
+    width: 300%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .map_image path {
+    fill: grey;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map_image .utilLand{
     fill: black;
     stroke: white;
     stroke-width: 1px;
     transition: fill 0.3s;
 }
 
-.map_image path:hover {
+.map_image .utilLand:hover {
     fill: #CC3300;
 }
 
