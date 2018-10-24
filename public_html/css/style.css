@@ -15,10 +15,6 @@ body {
     position: relative;
     background-size: cover;
     background-color: #F2F2F2;
-}
-
-.wrap {
-    min-height: 100%;
     position: relative;
 }
 
@@ -354,28 +350,31 @@ body {
     box-shadow: 0px 2px 5px #aaa;		
 }
 
-.map {
+#map {
     height: 300%;
-    width: 300%;
+    width: auto;
+    border: 2px solid #898989;
+    box-shadow: 3px 3px 3px black;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
 }
 
-.map_image path {
+#map_image path {
     fill: grey;
     stroke: white;
     stroke-width: 1px;
     transition: fill 0.3s;
 }
 
-.map_image .utilLand{
+#map_image .utilLand{
     fill: black;
     stroke: white;
     stroke-width: 1px;
     transition: fill 0.3s;
 }
 
-.map_image .utilLand:hover {
+#map_image .utilLand:hover {
     fill: #CC3300;
 }
 
