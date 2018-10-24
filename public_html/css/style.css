@@ -215,7 +215,7 @@ body {
 .bloc {
     font-family: "GeoSansLight";
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px black inset;
+    box-shadow: 2px -2px 20px #f2f2f2 inset, 2px 2px 2px black inset;
     background-color: white;
     border-radius: 50px 0px 50px;
     padding: 5%;
