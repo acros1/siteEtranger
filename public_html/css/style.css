@@ -351,13 +351,13 @@ body {
 }
 
 #map {
-    height: 300%;
-    width: auto;
-    border: 2px solid #898989;
-    box-shadow: 3px 3px 3px black;
+    height: auto;
+    width: 97%;
+    box-shadow: 5px 5px 5px black;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1%;
 }
 
 #map_image path {

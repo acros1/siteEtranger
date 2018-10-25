@@ -1,8 +1,6 @@
 function toggle(div)
 {
-    var d = document.getElementById(div).style.display;
-
-    if(d == "none")
+    if(document.getElementById(div).style.display == "none")
     {
 	document.getElementById(div).style.display =  "block";
     }
