@@ -4,6 +4,12 @@
     src: url('../font/GeosansLight.ttf');
 }
 
+@media only screen and (min-width: 900px) {
+    #mobileHeader{
+        display: none;
+    }
+}
+    
 html {
     height: 100%;
 }
