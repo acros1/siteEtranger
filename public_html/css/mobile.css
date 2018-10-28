@@ -11,6 +11,7 @@
 
     #footer {
 	height: 100%;
+        max-height: 60px;
 	text-align: center;
     }
 
@@ -86,7 +87,7 @@
 	margin : auto;
 	position: relative;
 	width : initial;
-	height : initial;
+	max-height : 252px;
 	overflow: auto;
     }
 
@@ -96,7 +97,6 @@
 
     .blocTexteImageGauche .blocImage {
 	float : left;
-	left: initial;
     }
 
     .blocTexteImageDroite .blocTexte {
@@ -111,15 +111,15 @@
 
     .blocTexte .Nom {
 	position : relative;
-	top : 10%;
-	font-size: 40px;
+	top : 5%;
+	font-size: 25px;
 	display: block;
     }
 
 
     .blocTexte .texte {
 	position: relative;
-	top: 50%;
+	top: 50px;
 	transform: translateY(-40%);
 	width : 100%;
 	text-align: justify;
