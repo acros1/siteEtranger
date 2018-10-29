@@ -3,6 +3,9 @@
     #header{
         display: none;
     }
+    #mobileHeader ul{
+        list-style-type: none;
+    }
     #main {
 	position: relative;
 	min-height: 100%;
@@ -137,7 +140,7 @@
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
-}
+    }
 
     .MenuDefilant a {
         padding: 8px 8px 8px 32px;
@@ -147,9 +150,16 @@
         display: block;
         transition: 0.3s;
     }
-
+    
+    .MenuDefilant li a{
+        font-size: 20px;        
+    }
+    
+    .MenuDefilant li a:hover{
+        font-size: 23px;        
+    }
+    
     .MenuDefilant a:hover {
-        color: #f1f1f1;
         font-size: 28px;
     }
 
