@@ -384,3 +384,8 @@ body {
     fill: #CC3300;
 }
 
+.contentUnderMapDiv
+{
+    display: none;
+}
+
