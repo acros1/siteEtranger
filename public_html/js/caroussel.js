@@ -5,7 +5,7 @@ var imgs	= ["student.jpg",
 /* Index for browsing image and content arrays */
 var i		= 0;
 /* Time to wait until it switch to the next image */
-var pause	= 4000;
+var pause	= 5000;
 var fadePause	= 30;
 
 /* content for each image, composed of a title and a text */
