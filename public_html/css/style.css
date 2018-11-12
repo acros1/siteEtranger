@@ -388,6 +388,8 @@ body {
 {
     display: inline-block;
     float: left;
+    border: 1px solid black;
+    min-height: 100px;
     height: auto;
     width: 20%;
     box-shadow: 5px 5px 5px black;
