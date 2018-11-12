@@ -386,6 +386,19 @@ body {
 
 .contentUnderMapDiv
 {
+    display: inline-block;
+    float: left;
+    height: auto;
+    width: 20%;
+    box-shadow: 5px 5px 5px black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 25px;
     display: none;
+}
+
+.contentUnderMapDiv h1 {
+    text-align: center;
 }
 
