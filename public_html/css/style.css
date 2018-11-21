@@ -398,6 +398,7 @@ body {
     margin-bottom: 1%;
     padding: 25px;
     display: none;
+    text-align: justify;
 }
 
 .contentUnderMapDiv h1 {
